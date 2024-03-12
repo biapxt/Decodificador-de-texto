@@ -5,11 +5,18 @@ O programa é uma aplicação web simples que permite ao usuário inserir texto,
 Podemos inferir as regras com base nas substituições realizadas no texto criptografado:
 
 Cada letra é substituída por uma sequência específica de caracteres. Por exemplo:
-"a" é substituído por "ai".
-"e" é substituído por "enter".
-"i" é substituído por "imes".
-"o" é substituído por "ober".
-"u" é substituído por "ufat".
+<ul>
+  <li>"a" é substituído por "ai".</li>
+  <li>"e" é substituído por "enter".</li>
+  <li>"i" é substituído por "imes".</li>
+  <li>"o" é substituído por "ober".</li>
+  <li>"u" é substituído por "ufat".</li>
+</ul>
+  
+
+
+
+
 Essas regras simples são aplicadas quando o usuário clica no botão de criptografar. Para descriptografar, é realizada a operação inversa, substituindo as sequências de caracteres pelos caracteres originais.
 
 Usando a frase "ola mundo" seria criptografada como "oberlai mundoufat" de acordo com as regras fornecidas.

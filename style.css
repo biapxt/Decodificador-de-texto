@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal: #191919;
+    --cor-secundaria: #4E9F3D;
+    --button-bg: #6f6e6e;
+    --cor-terciaria: #ffff;
+}
+
+body{
+    background-color: var(--cor-principal);
+}
+.cabeçalho{
+    padding: 2%;
+}
+.cabeçalho img{
+    width: 6%;
+    padding: 0 0 0 2%;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.esquerda{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+textarea{
+    width: 100%;
+    height: 80%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 0 0 0 7px;
+    background: transparent;
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+.alerta{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px ;
+    font-weight: 500;
+    color: #ffff;
+}
+.buttons{
+   
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons button{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border-radius: 29px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.buttons button img{
+    width: 20px;
+}
+.buttons #btn-cript{
+    background-color: var(--cor-secundaria);
+}
+.buttons #btn-descript{
+    background-color: var(--button-bg);
+}
+.direita{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 7px;
+}
+.direita h1{
+    font-size: 25px;
+}
+.direita p{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    width: 95%;
+}
+#btn-copiar{
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border-radius: 29px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: var(--button-bg);
+
+}
+.direita button img{
+    width: 20px;
+}
+.direita img{
+    width: 40%;
+}
+.rodape{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-top: 1px solid var(--button-bg);
+    color: rgb(68, 65, 65);
+}
+.rodape p{
+    width: 35%;
+}
+.rodape img{
+    width: 19px;
+}
+
+

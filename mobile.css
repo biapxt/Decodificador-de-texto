@@ -1,0 +1,32 @@
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .cabeçalho img{
+        width: 9%;
+    }
+    .principal {
+        flex-direction: column; /* Altera a direção do flexbox para coluna */
+        min-height: 100vh; /* Remove a altura fixa */
+    }
+
+    .esquerda,
+    .direita {
+        width: 100%; /* Define a largura como 100% */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+
+    .esquerda {
+        margin-bottom: 20px; /* Adiciona margem inferior para separar do rodapé */
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .direita img{
+        width: 20%;
+    }
+    .rodape p{
+        width: 70%;
+        font-size: 13px;
+    }
+    
+}

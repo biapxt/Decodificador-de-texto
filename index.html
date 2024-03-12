@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <img src="img/escudo.png" alt="logo escudo">
+    </header>
+    <main class="principal">
+            <div class="esquerda">
+                <textarea name="" id="textarea" cols="30" rows="10" placeholder="Digite um texto"></textarea>
+                <p class="alerta"><img src="img/exclamation-circle.png" alt="exclamação">Apenas letras minusculas e sem acento</p>
+                <div class="buttons">
+                    <button onclick="criptografar()" type="button" id="btn-cript">Criptografar
+                        <!-- <img src="img/cadeado-fechado.png" alt="ícone de cadeado fechado"> -->
+                    </button>
+                    <button onclick="descriptografar()" type="button" id="btn-descript">Descriptografar
+                        <!-- <img src="img/cadeado-desbloqueado.png" alt="ícone de cadeado aberto"> -->
+                    </button>
+                </div>
+            </div>
+            <div class="direita">
+                <textarea name="" id="textoCriptografado" cols="30" rows="10" readonly></textarea>
+                <img id="img" src="img/cross-31180.svg" alt="">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button onclick="copiar()" type="button" id="btn-copiar">Copiar
+                    <img src="img/copiar.png" alt="ícone de copiar">
+                </button>
+            </div>
+    </main>
+    <footer class="rodape">
+        <p>©2024 Beatriz Peixoto, challenge Alura.</p>
+        <a href="https://github.com/biapxt"><img src="img/github.png" alt="logo do github"></a>
+        <a href="https://www.linkedin.com/in/beatrizz-peixoto/"><img src="img/linkedin.png" alt="logo do linkedin"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

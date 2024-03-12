@@ -1,4 +1,4 @@
-<h1><center>DECODIFICADOR DE TEXTO</center></h1>
+<h1 align="center">DECODIFICADOR DE TEXTO</h1>
 Meu primeiro projeto: Challenge ONE Iniciante em Programação.
 O programa é uma aplicação web simples que permite ao usuário inserir texto, criptografá-lo ou descriptografá-lo, e copiar o resultado.
 
